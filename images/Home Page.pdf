@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://bikerbones.github.io/my_home_page.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" href="https://bikerbones.github.io/favicon.ico" type="image/x-icon">
+    <style></style>
+  </head>
+  <body>
+    <nav style="background-color: #333; text-align: center; padding: 10px 0">
+      <ul style="list-style-type: none; padding: 0">
+        <li style="display: inline; margin-right: 20px">
+          <a href="https://bikerbones.github.io/my_home_page.html" style="
+              text-decoration: none;
+              color: #fff;
+              font-weight: bold;
+              font-size: 16px;
+              transition: color 0.3s;
+            ">Home Page</a>
+        </li>
+        <li style="display: inline; margin-right: 20px">
+          <a href="https://bikerbones.github.io/my_resume.html" style="
+              text-decoration: none;
+              color: #fff;
+              font-weight: bold;
+              font-size: 16px;
+              transition: color 0.3s;
+            ">Resume Page</a>
+        </li>
+        <li style="display: inline">
+          <a href="https://bikerbones.github.io/my_fun_facts.html" style="
+              text-decoration: none;
+              color: #fff;
+              font-weight: bold;
+              font-size: 16px;
+              transition: color 0.3s;
+            ">Fun Facts Page</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>Laith's Portfolio</h1>
+
+    <img src="./Home Page_files/me.jpg" alt="Laith Alawsachi">
+
+    <blockquote>
+      "A thousand and ten thousand will fall beside you, but they will not touch
+      you."
+    </blockquote>
+
+    <p>
+      Hello, I'm Laith. I'm a Chaldean, I was born in Iraq and lived their for
+      ten years before my family and I move to the United States. I am majoring
+      in Information Techonology. I went to Macomb Community College for two
+      years then transfered to Oakland University. This will be my first ever
+      fall semester at OU. I am currenty taking four classes this semester to in
+      order to achieve my degree. I am very intrested in HTML and CSS I love
+      webdesign in general they are my favorite editing languages to use. I'm
+      also very intrested in cyber secruity and I hope that I can one day have
+      that to be my profession. To know more about me, check out my
+      <a href="https://bikerbones.github.io/html/my_resume.html">Resume Page</a> and
+      <a href="https://bikerbones.github.io/html/my_fun_facts.html">Fun Facts Page</a>.
+    </p>
+
+    <p>
+      Graduation Progress: <span id="progressPercentage">91.54%</span>
+
+      <progress id="graduationProgress" value="119" max="130"></progress>
+    </p>
+
+    <script>
+      const graduationProgress = document.getElementById("graduationProgress");
+      const progressPercentage = document.getElementById("progressPercentage");
+
+      const percentage = (
+        (graduationProgress.value / graduationProgress.max) *
+        100
+      ).toFixed(2);
+
+      progressPercentage.textContent = percentage + "%";
+    </script>
+
+    <hr>
+    <footer>
+      <p style="text-align: center">
+        Email:
+        <a href="mailto:laith.alawsachi@gmail.com">laith.alawsachi@gmail.com</a>
+      </p>
+
+      <p style="text-align: center">
+        Social Media:
+        <a href="https://www.linkedin.com/home">LinkedIn</a>
+        | <a href="https://www.instagram.com/">Instagram</a>
+      </p>
+      <p style="text-align: center">© 2023 Laith Alawsachi</p>
+    </footer>
+  
+
+</body></html>
