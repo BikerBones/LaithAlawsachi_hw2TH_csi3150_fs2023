@@ -1,0 +1,38 @@
+nav {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #db4c1c;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}

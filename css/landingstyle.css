@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/Background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.logo {
+  float: left;
+  margin-right: 20px;
+  width: 50px;
+  height: auto;
+}
+
+h1.resume-title {
+  text-align: center;
+}
+
+.highlight {
+  background-color: yellow;
+}
